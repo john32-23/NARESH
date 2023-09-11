@@ -3,10 +3,10 @@ package package1_for_basics;
 public class LocalVariable1 {
 	
 	public void calculateSum() {
-		int a = 5;
+		int a = 5;  // Local variable decalre and initialzed inside a method body {}
 		int b = 10;
 		int sum = a+b;
-		System.out.println("Sum of the CAlculateSum Method"+sum);
+		System.out.println("Sum of the CAlculateSum Method : "+sum);
 	}
 	
 

@@ -4,7 +4,7 @@ public class LocalVariables {
 	// A variable is a name given for the memory location.
 	public void printmessage() {
 
-		String message = "Hello world"; // Local Variable
+		String message = "Hello world"; // Local Variable declare and Initialized inside method body {}
 		System.out.println(message);
 	}
 
