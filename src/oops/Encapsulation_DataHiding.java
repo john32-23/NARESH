@@ -2,7 +2,7 @@ package oops;
 
 public class Encapsulation_DataHiding {
 	
-	/*
+	/*  
 	 *lets write the properties (variables) private and Behaviors (methods)
 	 * public of the BLC class in Encapsulation_DataHiding class. // private means
 	 * no one can access the data means variables value from outside the class. but
@@ -15,7 +15,7 @@ public class Encapsulation_DataHiding {
 	 * But we can access/used/Initialized it through methods.
 	 * How to apply ENCAPSULATION in our 	Class:
 	 * 1) Declare all your instance variable with private access modifier, it some time called tightly encapsulated class
-	 * by which we declared all the INSTANCE variables as Private
+	 * by which we declared all the INSTANCE variables as Private by which we can achieve data hiding.
 	 * 2) define GETTERS and  SETTERS to perform read and write operations.
 	 * To GENERATE getters and setters for a specific INSTANCE variable or For ALL Instance Variables, Right click inside a 
 	 * CLASS, then expand SOURCE, then click on GENERATE GETTERS AND SETTERS, then choose all variables or specific Instance variable.
