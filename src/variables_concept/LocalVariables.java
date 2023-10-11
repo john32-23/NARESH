@@ -1,4 +1,4 @@
-package package1_for_basics;
+package variables_concept;
 
 public class LocalVariables {
 	// A variable is a name given for the memory location.

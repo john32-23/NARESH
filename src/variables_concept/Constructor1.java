@@ -1,4 +1,4 @@
-package package1_for_basics;
+package variables_concept;
 
 public class Constructor1 {
 	

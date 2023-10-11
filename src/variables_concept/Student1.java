@@ -1,25 +1,24 @@
-package package1_for_basics;
+package variables_concept;
 
-import java.util.Objects;
-
-public class Student {
-
-	// Here we create a class to define the properties/States
-	// means variables and Behaviors means Function/Method for Objects
-
+public class Student1 {
+	
 	int rollNum;
 	String name;
 	double height;
 
 	// So these three are Properties/States for Class Object
-	// which is Student and we initialize the variable through objects.
+	// Studebt1 we define only once for both objects and here
+	// we initialize (means give initial value) the variables through objects
 
 	public void talk() {
 		System.out.println("My rollNum is :" + rollNum);
         System.out.println("My name is :"+ name); 
         System.out.println("My height is :"+ height);
         
-		// this is the behavior for a class object
+       
+        
+		// this is the behavior for a class object we defined 
+        // only once for both objects
 	}
 
 	// for the execution we need a main method
@@ -33,8 +32,14 @@ public class Student {
 
 		Student jav = new Student(); // Object created
 		
-		// now we have to give a value to properties using 
-		// Object reference
+		Student jav1 = new Student();
+		
+		jav1.rollNum = 143;
+		jav1.name = "Sohrab";
+		jav1.height = 6.1;
+		
+		// here we created two objects, but we defined the method/Behavior
+		// and properties/variables only once at instance level.
 		jav.rollNum=23;
 		jav.name= "Ahmad"; //String must be in double quotation
 		jav.height = 5.8;  // double must be a decimal value
@@ -42,5 +47,7 @@ public class Student {
 		// now we can use reference variable jav to perform talk behavior actions
 		
 		jav.talk();
-	}
+		jav1.talk();
+
+}
 }
