@@ -50,7 +50,8 @@ public class Has_A_Relation_Student {
 		 * class instance Cariable which is college with dot "." operator.
 		 */
 
-
+	      // FOR EXECUTION WE WILL GO TO THE MAIN CLASS WHERE WE WILL CREATE AN OBJECTS OF
+		  // OF STUDENT AND COLLEGE CLASS IN MAIN CLASS  UNDER MAIN METHOD.	
 	}
 	
 

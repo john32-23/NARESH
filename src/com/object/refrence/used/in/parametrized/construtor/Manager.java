@@ -35,12 +35,19 @@ public class Manager {
     	// FOR EXECUTION we will go to the Main class for execution and testing
     	// we will create an Object of  Employee Object
     }
-
-	@Override
-	public String toString() {
-		return "Manager [managerFatherName=" + managerFatherName + "]";
-	}
+     
+    // we can perform the above actions with "toString()" method without creating a method
+    // called "showManagerData()" and then using sysout Statement in Main Class to print m1 refrence 
+    // in a Array Format. It is up to the person , whatever they prefrered toString() method or user-defined method.
     
     // lets print the last Variable fatherName with ToString method
+    // right click inside the editor, then scroll to "SOURCE" then click on "Generate toString()" method
+    // inside "Fields" select only fatherName fields and then click on generate 
+	@Override
+	public String toString() {
+		return "Manager [managerFatherName=" + managerFatherName + "]";  // this line will print the value in this array format
+	}
+    
+   
     
 }

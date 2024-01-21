@@ -16,6 +16,7 @@ public class Main {
 		
 		e1.setEmployeeNumber(111);
 		e1.setEmplyeeName("Ali");
+		
 		e1.setFatherName("Gulzar");
 		//Now creating an Object of Manger class
 		
@@ -26,9 +27,12 @@ public class Main {
 		
 		// here we will call the method we created in Manager Class
 		
-		m1.showManagerData(); // now Run it
+		m1.showManagerData(); // now Run it or call it showManagerData()
 		
-		System.out.println(m1);
+		System.out.println(m1);  // here we call it or print thr value of toStringMethod().
 	}
-
+       
+	
+	// what we did in all these three classes that we applied that values of "employee " class into the 
+	// "Manager" Class and then use the Main Class to print it.
 }
